@@ -1,4 +1,6 @@
 {
     "liveServer.settings.port": 5501,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "livePreview.hostIP": "192.168.214.229",
+    "livePreview.portNumber": 5501
 }
