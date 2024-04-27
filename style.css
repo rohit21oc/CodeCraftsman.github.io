@@ -74,7 +74,7 @@ footer p {
 
 .container {
   display: flex;
-  height: calc(100vh - 60px);
+  height: 100vh;
 }
 
 .containercontact {
@@ -236,7 +236,6 @@ b {
   font-size: 70px;
   color: #7f00ff;
 }
-
 .warper {
   display: flex;
   width: 69%;
@@ -244,6 +243,7 @@ b {
   justify-content: center;
   align-items: center;
   padding: 0 10%;
+  /* margin-top: 0%; */
 }
 
 .cols {
@@ -273,7 +273,7 @@ b {
   font-size: 3em;
   font-family: "Rajdhani";
   font-weight: 900;
-  margin-top: 30px;
+  margin-top: 20px;
   color: #000000;
 }
 #skill-head{
@@ -372,7 +372,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   padding: -21rem;
   text-align: left;
 }

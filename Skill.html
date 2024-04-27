@@ -33,43 +33,51 @@
         <h1 id="skill-head" class="h1Skill">Skill's</h1>
         <div class="skillsMain">
           <div class="main1">
-            <h1 class="java">JAVA</h1>
+            <h1 class="java">HTML</h1>
             <div class="progress-container">
               <div class="progress-bar" id="myBar1"></div>
             </div>
-            <h1 class="java">PYTHON</h1>
+            <h1 class="java">CSS</h1>
             <div class="progress-container">
               <div class="progress-bar" id="myBar2"></div>
             </div>
-            <h1 class="java">C</h1>
+            <h1 class="java">JavaScript</h1>
             <div class="progress-container">
               <div class="progress-bar" id="myBar3"></div>
             </div>
 
-            <h1 class="java">HTML</h1>
+            <h1 class="java">MongoDB</h1>
             <div class="progress-container">
               <div class="progress-bar" id="myBar4"></div>
             </div>
-            <h1 class="java">CSS</h1>
+            <h1 class="java">Express JS</h1>
             <div class="progress-container">
               <div class="progress-bar" id="myBar5"></div>
             </div>
           </div>
           <div class="main2">
-            <h1 class="java">JAVA-SCRIPT</h1>
+            <h1 class="java">React js</h1>
             <div class="progress-container">
               <div class="progress-bar" id="myBar6"></div>
+            </div>
+            <h1 class="java">Node js</h1>
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar7"></div>
+            </div>
+            <h1 class="java">MySQL</h1>
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar7a"></div>
             </div>
             <div class="main2">
               <h1 class="java">10th Percentage</h1>
               <div class="progress-container">
-                <div class="progress-bar" id="myBar7"></div>
+                <div class="progress-bar" id="myBar8"></div>
               </div>
             </div>
             <div class="main2">
               <h1 class="java">12th Percentage</h1>
               <div class="progress-container">
-                <div class="progress-bar" id="myBar8"></div>
+                <div class="progress-bar" id="myBar9"></div>
               </div>
             </div>
           </div>
@@ -101,13 +109,13 @@
       <p class="footrTag">copyright&#169;Rohit Kumar</p>
     </footer>
     <script>
-      // Set the width of the first progress bar to 50%
+      // Set the width of the first progress bar to 100%
       var bar1 = document.getElementById("myBar1");
       var width1 = 0;
       var id1 = setInterval(frame1, 10);
 
       function frame1() {
-        if (width1 >= 75) {
+        if (width1 >= 100) {
           clearInterval(id1);
         } else {
           width1++;
@@ -116,13 +124,13 @@
         }
       }
 
-      // Set the width of the second progress bar to 75%
+      // Set the width of the second progress bar to 100%
       var bar2 = document.getElementById("myBar2");
       var width2 = 0;
       var id2 = setInterval(frame2, 10);
 
       function frame2() {
-        if (width2 >= 45) {
+        if (width2 >= 100) {
           clearInterval(id2);
         } else {
           width2++;
@@ -130,13 +138,13 @@
           bar2.innerHTML = width2 + "%";
         }
       }
-      // Set the width of the Theird progress bar to 75%
+      // Set the width of the Theird progress bar to 100%
       var bar3 = document.getElementById("myBar3");
       var width3 = 0;
       var id3 = setInterval(frame3, 10);
 
       function frame3() {
-        if (width3 >= 65) {
+        if (width3 >= 100) {
           clearInterval(id3);
         } else {
           width3++;
@@ -144,13 +152,13 @@
           bar3.innerHTML = width3 + "%";
         }
       }
-      // Set the width of the second progress bar to 75%
+      // Set the width of the second progress bar to 100%
       var bar4 = document.getElementById("myBar4");
       var width4 = 0;
       var id4 = setInterval(frame4, 10);
 
       function frame4() {
-        if (width4 >= 80) {
+        if (width4 >= 100) {
           clearInterval(id4);
         } else {
           width4++;
@@ -158,13 +166,13 @@
           bar4.innerHTML = width4 + "%";
         }
       }
-      // Set the width of the Fifth progress bar to 75%
+      // Set the width of the Fifth progress bar to 100%
       var bar5 = document.getElementById("myBar5");
       var width5 = 0;
       var id5 = setInterval(frame5, 10);
 
       function frame5() {
-        if (width5 >= 60) {
+        if (width5 >= 100) {
           clearInterval(id5);
         } else {
           width5++;
@@ -172,13 +180,13 @@
           bar5.innerHTML = width5 + "%";
         }
       }
-        // Set the width of the Six progress bar to 75%
+        // Set the width of the Six progress bar to 100%
         var bar6 = document.getElementById("myBar6");
       var width6 = 0;
       var id6 = setInterval(frame6, 10);
 
       function frame6() {
-        if (width6 >= 40) {
+        if (width6 >= 100) {
           clearInterval(id6);
         } else {
           width6++;
@@ -186,13 +194,13 @@
           bar6.innerHTML = width6 + "%";
         }
       }
-        // Set the width of the seven progress bar to 75%
+        // Set the width of the seven progress bar to 100%
         var bar7 = document.getElementById("myBar7");
       var width7 = 0;
       var id7 = setInterval(frame7, 10);
 
       function frame7() {
-        if (width7 >= 82) {
+        if (width7 >= 100) {
           clearInterval(id7);
         } else {
           width7++;
@@ -200,13 +208,29 @@
           bar7.innerHTML = width7 + "%";
         }
       }
-        // Set the width of the eight progress bar to 75%
+
+
+        // Set the width of the seven progress bar to 100%
+        var bar7a = document.getElementById("myBar7a");
+      var width7a = 0;
+      var id7a = setInterval(frame7a, 10);
+
+      function frame7a() {
+        if (width7a >= 100) {
+          clearInterval(id7a);
+        } else {
+          width7a++;
+          bar7a.style.width = width7a + "%";
+          bar7a.innerHTML = width7a + "%";
+        }
+      }
+        // Set the width of the eight progress bar to 100%
         var bar8 = document.getElementById("myBar8");
       var width8 = 0;
       var id8 = setInterval(frame8, 10);
 
       function frame8() {
-        if (width8 >= 76) {
+        if (width8 >= 100) {
           clearInterval(id8);
         } else {
           width8++;
@@ -214,6 +238,22 @@
           bar8.innerHTML = width8 + "%";
         }
       }
+
+       // Set the width of the nine progress bar to 100%
+       var bar9 = document.getElementById("myBar9");
+      var width9 = 0;
+      var id9 = setInterval(frame9, 10);
+
+      function frame9() {
+        if (width9 >= 100) {
+          clearInterval(id9);
+        } else {
+          width9++;
+          bar9.style.width = width9 + "%";
+          bar9.innerHTML = width9 + "%";
+        }
+      }
+    
     </script>
   </body>
 </html>
